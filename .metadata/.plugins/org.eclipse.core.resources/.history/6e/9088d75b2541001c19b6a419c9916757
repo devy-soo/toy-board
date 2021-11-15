@@ -1,0 +1,21 @@
+package com.boardtest.comm.dao;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class AbstrstDao {
+	@Autowired
+	SqlSession sqlSession;
+	
+	
+	public List<?> selectList(String sql){
+		return selectList(sql,null);
+	}
+	
+	public List<?> selectList(String sql,Object obj){
+		return sqlSession.selectList(sql,obj);
+	}
+
+}

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=boardtest
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.5.6
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=\uC2A4\uD504\uB9C1 \uBD80\uD2B8 \uAC8C\uC2DC\uD310
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.board
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=boardtest
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.boardtest
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

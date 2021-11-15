@@ -1,0 +1,68 @@
+package com.boardtest.board.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.boardtest.board.service.BoardService;
+import com.boardtest.board.vo.BoardVo;
+
+//@RequestMapping("/WEB-INF/views")
+@Controller
+public class BoardController {
+	
+//	@Autowired
+//	BoardService bS;
+//	
+//	@RequestMapping("/board.do")
+//	private String boardList(ModelMap model, HttpServletRequest request, @ModelAttribute BoardVo boardVo ) {
+//		boardList(model,request,boardVo);
+//		List<BoardVo> list = bS.getBoardList(boardVo); 
+//		model.addAttribute("list",list);  
+//		return "board";
+//		
+//	}
+//	
+	
+//	private List<BoardVo> boardList(HttpServletRequest request) throws Exception{
+//	ModelAndView mav = new ModelAndView();
+//	
+//	List<BoardVo> boardList = bS.getBoardList(); 
+//	mav.addObject("boardList", boardList); 
+//	mav.setViewName("board");
+//
+//	return boardList;
+//}
+
+	@Autowired
+	BoardService boardService;
+	
+	
+	@RequestMapping("/board.do")
+	public String boardCount(ModelMap model) {
+		//게시물 갯수
+		model.addAttribute("cnt", boardService.getBoardListCount());
+		
+		//게시물 리스트
+		List<BoardVo> boardList = boardService.getBoardList(); 
+		model.addAttribute("boardList", boardList);
+		
+		return "/board/board";
+	}
+	
+	
+	
+	
+	@RequestMapping("/boardWrite.do")
+	public String boardWrite() {
+		return "/board/boardWrite";
+	}
+
+
+}

@@ -1,0 +1,28 @@
+package com.boardtest.board.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.boardtest.board.dao.boardDao;
+import com.boardtest.board.mapper.BoardMapper;
+import com.boardtest.board.vo.BoardVo;
+
+import ch.qos.logback.classic.Logger;
+
+@Service
+public class BoardServiceImpl implements BoardService {
+
+	private final Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
+	
+	@Autowired
+	private boardDao boardDao;
+	
+	public List<BoardVo> getBoardList(){
+    	List<BoardVo> list = new ArrayList<BoardVo>(); 
+	}
+	
+}

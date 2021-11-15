@@ -1,0 +1,10 @@
+1636013132295	Move 'index.jsp' to 'views'
+1636013452093	Copy package
+1636084508082	Rename package 'com.test.comm.controller'
+1636084538096	Rename package 'com.test.board.controller'
+1636085016609	Rename package 'com.boardtest.controller'
+1636085081124	Rename package 'com.boardtest.board.controller'
+1636091238159	Rename type 'boardMapper'
+1636091271394	Rename type 'boardVo'
+1636091289874	Rename type 'commController'
+1636098585755	Copy file

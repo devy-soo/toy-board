@@ -1,0 +1,5 @@
+package com.boardtest.board.service;
+
+public class BoardService {
+
+}

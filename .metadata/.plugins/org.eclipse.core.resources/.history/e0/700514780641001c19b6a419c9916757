@@ -1,0 +1,23 @@
+package com.boardtest.board.dao;
+
+import java.util.List;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.boardtest.board.vo.BoardVo;
+import com.boardtest.comm.dao.AbstrstDao;
+
+import ch.qos.logback.classic.Logger;
+
+@Repository
+public class boardDao extends AbstrstDao {
+	private final Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
+
+	public List<BoardVo> getBoardList(BoardVo boardVo){
+    	List<BoardVo> list = (List<BoardVo>) selectList("com.boardtest.board.dao.boardDao", boardVo);
+		return list;
+	}
+
+
+}

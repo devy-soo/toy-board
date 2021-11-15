@@ -1,0 +1,11 @@
+server.port=8000
+
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+#spring.mvc.static-path-=/resources/**
+
+# MySQL DB
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/toy_board_db
+spring.datasource.username=root
+spring.datasource.password=2021

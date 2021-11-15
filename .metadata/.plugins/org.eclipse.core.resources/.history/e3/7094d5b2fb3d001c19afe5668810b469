@@ -1,0 +1,5 @@
+package com.boardtest.board.mapper;
+
+public interface boardMapper {
+
+}

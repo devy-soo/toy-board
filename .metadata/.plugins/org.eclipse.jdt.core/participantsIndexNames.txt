@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3356024660.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4145098895.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2216175267.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3145072502.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\513279824.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\873396880.index
+\boardtest\src\main\java
+C:\workspaces\toy-board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\806103245.index
+\boardtest\src\main\java

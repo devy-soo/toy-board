@@ -1,0 +1,5 @@
+package com.boardtest.comm.dao;
+
+public class AbstrstDao {
+
+}
