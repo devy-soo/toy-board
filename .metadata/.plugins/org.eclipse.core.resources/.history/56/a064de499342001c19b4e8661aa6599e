@@ -1,3 +1,0 @@
-const fnJustMove = (url) => {
-	location.href=url;
-}

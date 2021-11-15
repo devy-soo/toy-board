@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-input, textarea{width:100%}
-textarea{resize:none;}
-.write-table{
-	border-top:2px solid #333;
-}
